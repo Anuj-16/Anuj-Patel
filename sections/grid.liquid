@@ -1,6 +1,20 @@
 {% schema %}
   {
-    "name": "Section name",
-    "settings": []
+    "name": "Grid Section",
+    "blocks": [
+      {
+        "type": "product",
+        "name": "Product Block",
+        "settings": [
+          {
+            "type": "product",
+            "id": "product",
+            "label": "Select Product"
+          }
+        ]
+      }
+    ],
+    "max_blocks": 6
+    
   }
 {% endschema %}
